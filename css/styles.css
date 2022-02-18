@@ -1,3 +1,23 @@
 .body {
-    
 }
+
+/*footer*/
+
+.footer {
+  width: 100%;
+  background-color: #B1E693;
+  color: #fff;
+  padding: 20 px 0;
+}
+
+.footer h3{
+font-size: 18px;
+line-height: 25px;
+color: #6ECB63;
+text-transform: uppercase;
+letter-spacing: .1em ;
+font-weight: bold;
+
+}
+
+.footer h3 :after
