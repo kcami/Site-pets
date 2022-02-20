@@ -1,3 +1,131 @@
-.body {
-    
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #6ECB63;
 }
+
+.container {
+    padding: 50px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 30px;
+    border-color: #CDF3A2;
+    background-color: transparent;
+}
+
+/* Barra de Navegação */
+.navbar {
+    background-color: #6ECB63;
+    box-shadow: 0 3px 3px black;
+}
+
+.navbar-item {
+    margin-left: 20px;
+}
+
+#id-navbar a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+#id-navbar a:hover {
+    text-decoration: none;
+}
+
+#id-navbar .active {
+    color: white;
+    font-weight: bolder;
+}
+
+/* Parte principal da Home */
+.main {
+    display: inline-block;
+}
+
+svg {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.img-titulo img {
+    display: block;
+    height: 210px;
+    margin: 60px auto 30px auto;
+}
+
+.titulo {
+    position: relative;
+}
+
+.titulo h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.efeito {
+    background-color: #CDF3A2;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+/* página de adocao */
+#perfil {
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 30px;
+}
+
+.sub-titulo {
+    padding: 30px 0;
+    font-size: 24px;
+}
+
+.btn-perfil {
+    background-color: #CDF3A2;
+    border-radius: 30px;
+    border-color: #CDF3A2;
+    margin: 10px;
+}
+
+.exibicao {
+    width: 200px;
+    height: 130px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+/* Responsivo */
+@media(max-width: 768px) {
+
+    .btn-perfil {
+        margin: 5px;
+    }
+    
+    .exibicao {
+        border-radius: 30px;
+        margin: 5px;
+    }
+
+}
+
