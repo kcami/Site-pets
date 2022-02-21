@@ -1,14 +1,15 @@
-body {
-  height: 1px;
-}
-
 /*footer*/
+
+img {
+  width: 150px;
+  height: 100px;
+}
 
 footer {
   background-color: #b1e693;
-  padding-top: 5em;
+  padding-top: 20px;
   padding-bottom: 20px;
-  border-top: 2.5px solid #6ecb63;
+  border-top: 20px solid #6ecb63;
 }
 
 footer h2 {
@@ -120,4 +121,63 @@ fieldset {
   margin: 0 0 5px;
   padding: 15px;
   font-size: 15px;
+}
+
+/*resgate*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  width: 1200px;
+  height: 100vh;
+  margin: auto;
+}
+
+.content h1 {
+  font-family: arial;
+  font-weight: bold;
+  color: #fff;
+  font-size: 50px;
+  padding-top: 250px;
+}
+
+.content p {
+  font-family: arial;
+  font-weight: bold;
+  font-size: #000;
+  line-height: 30px;
+  padding-top: 30px;
+}
+
+.content .btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  transition: 0.5s;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.content .btn:hover {
+  background-color: #fff;
+  color: #30d300;
+}
+
+.content a {
+  text-decoration: none;
 }
