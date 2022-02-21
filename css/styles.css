@@ -1,7 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: #6ECB63;
 }
 
 .container {
@@ -22,29 +21,9 @@ body {
     background-color: transparent;
 }
 
-.titulo {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.titulo h1 {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.titulo h1::after {
-    content: "";
-    border-top: 3px black solid;
-    width: 20%;
-    position: absolute;
-    top: 47px;
-    left: 40%;
-}
-
 /* Barra de Navegação */
 .navbar {
-    background-color: #6ECB63;
-    box-shadow: 0 3px 3px black;
+    background-color: linear-gradient(to bottom right, #cffbca, #f8cdd4);;
 }
 
 .navbar-item {
@@ -69,20 +48,107 @@ body {
 /* Parte principal da Home */
 .main {
     display: inline-block;
+    height: 750px;
 }
 
-svg {
-    width: 100%;
+.titulo {
+    margin: 170px 120px auto auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.titulo h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.titulo h1::after {
+    content: "";
+    border-top: 3px black solid;
+    width: 20%;
     position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
+    top: 47px;
+    left: 40%;
+}
+
+.animacao-main {
+    position: relative;
+}
+
+.img-titulo {
+    margin-top: 150px;
 }
 
 .img-titulo img {
-    display: block;
-    height: 210px;
-    margin: 60px auto 30px auto;
+    width: 300px;
+}
+
+.circulo {
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #47ba3a;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: circulo 60s linear 0s infinite;
+}
+
+@keyframes circulo {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.icon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding: 28px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: all ease 0.5s;
+    background-color: #6ECB63;
+    border-color: #6ECB63;
+}
+
+.icon:hover {
+    border-color: #CDF3A2;
+    background-color: #CDF3A2;
+    box-shadow: 0 4px 94px #fbe1e5;
+}
+
+.icon:nth-child(1) {
+    top: -50px;
+    left: 41%;
+}
+
+.icon:nth-child(2) {
+    top: 70px;
+    left: -20px;
+}
+
+.icon:nth-child(3) {
+    top: 70px;
+    right: -20px;
+}
+
+.icon:nth-child(4) {
+    bottom: 80px;
+    right: -20px;
+}
+
+.icon:nth-child(5) {
+    bottom: -50px;
+    right: 41%;
+}
+
+.icon:nth-child(6) {
+    bottom: 80px;
+    left: -20px;
 }
 
 .efeito {
