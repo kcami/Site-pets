@@ -1,267 +1,3 @@
-<<<<<<< HEAD
-/*footer*/
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  background: #6ecb63;
-}
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #b1e693;
-  height: auto;
-  width: 100vw;
-  font-family: "Open Sans";
-  padding-top: 40px;
-  color: #000;
-  text-align: center;
-  padding-top: 1rem;
-}
-
-.footer-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.footer-content h3 {
-  font-size: 1.8rem;
-  font-weight: 400;
-  text-transform: capitalize;
-  line-height: 3rem;
-}
-
-.footer-content p {
-  max-width: 500px;
-  margin: 10px auto;
-  line-height: 28px;
-  font-size: 14px;
-}
-
-.socials {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.socials li {
-  margin: 0 14px;
-}
-
-.socials a {
-  text-decoration: none;
-  color: #000;
-}
-
-.socials a i {
-  font-size: 3rem;
-  transition: color 0.4s ease;
-}
-
-.socials a:hover i {
-  color: aqua;
-}
-
-.footer-bottom {
-  background: #b1e693;
-  width: 100vw;
-  padding: 5px 0;
-  text-align: center;
-}
-
-.footer-bottom p {
-  font-size: 20px;
-  word-spacing: 2px;
-  text-transform: capitalize;
-}
-
-.footer-bottom span {
-  text-transform: uppercase;
-  opacity: 0.4;
-  font-weight: 400;
-}
-
-/*contato*/
-@import url(https://fonts.googleapis.com/css?family-Roboto:400,300,600,400italic);
-* {
-  margin: 4px;
-  padding: 11px;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-body {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  color: #000;
-  background: #6ecb63;
-}
-
-.box1 {
-  max-width: 400px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact textarea,
-#contact button [type="submit"] {
-  font: 400px 12px/16px "Courier New", Courier, monospace;
-  width: 100%;
-  border: 1px solid #ccc;
-  margin: 0 0 5px;
-  padding: 15px;
-}
-
-#contact {
-  background: #34be82;
-  padding: 25px;
-  margin: 150px 0;
-  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2), 0 5px 0;
-  display: block;
-  font-size: 30px;
-  font-weight: 400;
-  margin-bottom: 15px;
-}
-
-fieldset {
-  border: medium none !important;
-  margin: 0 0 15px;
-  min-width: 100%;
-  padding: 0;
-  width: 100%;
-}
-
-#contact button[type="submit"] {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: #b1e693;
-  margin: 0 0 5px;
-  padding: 15px;
-  font-size: 15px;
-}
-
-/*resgate*/
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.container-fluid {
-  width: 100%;
-  height: 100vh;
-}
-
-.content {
-  width: 1200px;
-  height: 100vh;
-  margin: auto;
-}
-
-.content h1 {
-  font-family: arial;
-  font-weight: bold;
-  color: #fff;
-  font-size: 50px;
-  padding-top: 250px;
-}
-
-.content p {
-  font-family: arial;
-  font-weight: bold;
-  font-size: #000;
-  line-height: 30px;
-  padding-top: 30px;
-}
-
-.content .btn {
-  width: 200px;
-  height: 50px;
-  border-radius: 10px;
-  font-size: 18px;
-  border: 2px solid #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  color: #fff;
-  transition: 0.5s;
-  margin-top: 20px;
-  cursor: pointer;
-}
-
-.content .btn:hover {
-  background-color: #fff;
-  color: #30d300;
-}
-
-.content a {
-  text-decoration: none;
-}
-
-/*locais*/
-#about-area {
-  background-color: #6ecb63;
-}
-
-.main-title {
-  color: #444;
-  margin: 0 0 65px 0;
-  font-size: 40px;
-  text-align: center;
-}
-
-.main-title::after {
-  content: "";
-  border-top: 2px solid #333;
-  width: 15%;
-  position: absolute;
-  top: 60px;
-  left: 42.5%;
-}
-
-.about-title {
-  font-size: 17px;
-  color: #444;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-#about-list {
-  list-style: none;
-  padding-left: 30px;
-}
-
-#about-list li {
-  line-height: 30px;
-}
-
-#about-list i {
-  color: aqua;
-  margin-right: 15px;
-}
-=======
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -286,8 +22,9 @@ body {
 }
 
 /* Barra de Navegação */
+
 .navbar {
-    background-color: linear-gradient(to bottom right, #cffbca, #f8cdd4);;
+    background-color: #444;
 }
 
 .navbar-item {
@@ -315,24 +52,75 @@ body {
     height: 750px;
 }
 
-.titulo {
-    margin: 170px 120px auto auto;
+.titulo-home {
+    margin: 50px 100px auto auto;
     position: relative;
     margin-bottom: 30px;
 }
 
-.titulo h1 {
-    font-size: 36px;
-    font-weight: bold;
+.titulo-home .texto1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    animation: texto-descida 2s 1 linear;
+    position: relative;
 }
 
-.titulo h1::after {
+.titulo-home .texto2 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: grey;
+    animation: texto-subida 2s 1 linear;
+} 
+
+@keyframes texto-descida {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes texto-subida {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.call-to-action::before {
     content: "";
-    border-top: 3px black solid;
-    width: 20%;
+    border-top: 2px solid pink;
+    width: 30%;
     position: absolute;
-    top: 47px;
-    left: 40%;
+    top: 100px;
+    left: 25%;
+}
+
+.call-to-action { 
+    margin-top: 70px;
+    margin-right: 100px;
+    animation: texto-subida 3s 1 3s paused ease-out;   
+}
+
+.call-to-action p {
+    opacity: 0;
+    animation: desaparecer 1ms 2s forwards;
+}
+
+@keyframes desaparecer {
+    to {
+        opacity: 1;
+    }
 }
 
 .animacao-main {
@@ -426,23 +214,19 @@ body {
 
 /* página de adocao */
 #perfil {
-    background-color: white;
     margin-top: 70px;
     margin-bottom: 70px;
-    border-radius: 30px;
 }
 
 .btn-perfil {
-    background-color: #CDF3A2;
-    border-radius: 30px;
-    border-color: #CDF3A2;
-    margin: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 10px;
 }
 
 .exibicao {
     width: 200px;
     height: 130px;
-    border-radius: 30px;
     margin: 5px;
 }
 
@@ -459,10 +243,93 @@ body {
 .texto-sobre {
     margin: auto 0;
 }
+/* Locais */
+
+
+/* Resgate */
+
+/* Contato */
+
+/* Footer */
+
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3ec1d5;
+}
+
+.contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #3ec1d5;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover {
+    color: #3ec1d5;
+}
+
+/* Copyright */
+
+#copy-area {
+    background-color: #f1f1f1;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #444;
+}
+
+#copy-area .container a:hover{
+    text-decoration: none;
+    color: #3ec1d5;
+}
 
 /* Responsivo */
-@media(max-width: 768px) {
 
+
+@media(max-width: 767px) {
+    /* Adoção */
     .btn-perfil {
         margin: 5px;
     }
@@ -473,5 +340,3 @@ body {
     }
 
 }
-
->>>>>>> a76cd35d83fb8352cb57be8c0b5bf27a62ebde4d
