@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*footer*/
 
 * {
@@ -260,3 +261,217 @@ fieldset {
   color: aqua;
   margin-right: 15px;
 }
+=======
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container {
+    padding: 50px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 30px;
+    border-color: #CDF3A2;
+    background-color: transparent;
+}
+
+/* Barra de Navegação */
+.navbar {
+    background-color: linear-gradient(to bottom right, #cffbca, #f8cdd4);;
+}
+
+.navbar-item {
+    margin-left: 20px;
+}
+
+#id-navbar a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+#id-navbar a:hover {
+    text-decoration: none;
+}
+
+#id-navbar .active {
+    color: white;
+    font-weight: bolder;
+}
+
+/* Parte principal da Home */
+.main {
+    display: inline-block;
+    height: 750px;
+}
+
+.titulo {
+    margin: 170px 120px auto auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.titulo h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.titulo h1::after {
+    content: "";
+    border-top: 3px black solid;
+    width: 20%;
+    position: absolute;
+    top: 47px;
+    left: 40%;
+}
+
+.animacao-main {
+    position: relative;
+}
+
+.img-titulo {
+    margin-top: 150px;
+}
+
+.img-titulo img {
+    width: 300px;
+}
+
+.circulo {
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #47ba3a;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: circulo 60s linear 0s infinite;
+}
+
+@keyframes circulo {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.icon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding: 28px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: all ease 0.5s;
+    background-color: #6ECB63;
+    border-color: #6ECB63;
+}
+
+.icon:hover {
+    border-color: #CDF3A2;
+    background-color: #CDF3A2;
+    box-shadow: 0 4px 94px #fbe1e5;
+}
+
+.icon:nth-child(1) {
+    top: -50px;
+    left: 41%;
+}
+
+.icon:nth-child(2) {
+    top: 70px;
+    left: -20px;
+}
+
+.icon:nth-child(3) {
+    top: 70px;
+    right: -20px;
+}
+
+.icon:nth-child(4) {
+    bottom: 80px;
+    right: -20px;
+}
+
+.icon:nth-child(5) {
+    bottom: -50px;
+    right: 41%;
+}
+
+.icon:nth-child(6) {
+    bottom: 80px;
+    left: -20px;
+}
+
+.efeito {
+    background-color: #CDF3A2;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+/* página de adocao */
+#perfil {
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 30px;
+}
+
+.btn-perfil {
+    background-color: #CDF3A2;
+    border-radius: 30px;
+    border-color: #CDF3A2;
+    margin: 10px;
+}
+
+.exibicao {
+    width: 200px;
+    height: 130px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+/* página de sobre */
+
+#id-sobre {
+    padding: 70px 0;
+}
+
+.texto-sobre {
+    margin: auto 0;
+}
+
+/* Responsivo */
+@media(max-width: 768px) {
+
+    .btn-perfil {
+        margin: 5px;
+    }
+    
+    .exibicao {
+        border-radius: 30px;
+        margin: 5px;
+    }
+
+}
+
+>>>>>>> a76cd35d83fb8352cb57be8c0b5bf27a62ebde4d

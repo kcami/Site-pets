@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoção</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonte Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Jquery e Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ed68e41bc3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <header>
+        <div class="container">
+            <div class="navbar navbar-expand-lg fixed-top navbar-dark">
+
+                <a class="navbar-brand" href="index.html"><img src="https://cdn-icons-png.flaticon.com/512/3047/3047928.png" height="90px" alt="Logo da adoCÃO"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#id-navbar" aria-controls="id-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse justify-content-start collapse" id="id-navbar">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item"><a href="index.html">Home</a></li>
+                        <li class="navbar-item"><a class="active" href="adocao.html">Adoção</a></li>
+                        <li class="navbar-item"><a href="sobre.html">Sobre</a></li>
+                        <li class="navbar-item"><a href="cuidado.html">Cuidados para adotar</a></li>
+                        <li class="navbar-item"><a href="resgate.html">Resgate</a></li>
+                        <li class="navbar-item"><a href="sede.html">Sede</a></li>
+                        <li class="navbar-item"><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+        <!-- Perfil dos animais adotados -->
+    <main>
+        <div class="container" id="perfil">
+            <div class="titulo"><h1>Deseja adotar?</h1></div>
+            <p>Aqui está uma lista de peludos à espera de uma família.</p>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <button class="btn-perfil btn-primary" data-toggle="collapse" href="#dog1" role="button" aria-expanded="false" aria-controls="dog1">
+                        <img src="https://cdn.pixabay.com/photo/2017/10/31/19/50/dog-2906285_960_720.jpg" class="exibicao" alt="Cachorro">
+                        <p class="nome">Biscoito</p>
+                    </button>
+                    <div class="collapse" id="dog1">
+                        <div class="card card-body">
+                            Macho. Cachorro adulto. Porte médio. Castrado. Sem Leishmaniose. Dócil, agitado e se dá bem com outros animais.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <button class="btn-perfil btn-primary" data-toggle="collapse" data-target="#dog2" type="button" aria-expanded="false" aria-controls="dog2">
+                        <img src="https://cdn.pixabay.com/photo/2014/12/03/05/48/dog-555067_960_720.jpg" class="exibicao" alt="Cachorro">
+                        <p class="nome">Pingo</p>
+                    </button>
+                    <div class="collapse" id="dog2">
+                        <div class="card card-body">
+                            Macho. Cachorro filhote. Porte pequeno. Castrado. Sem Leishmaniose. Temperamento tranquilo e alegre.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <button class="btn-perfil btn-primary" data-toggle="collapse" data-target="#cat1" type="button" aria-expanded="false" aria-controls="cat1">
+                        <img src="https://cdn.pixabay.com/photo/2016/01/05/17/33/cat-1122984_960_720.jpg" class="exibicao" alt="Gato">
+                        <p class="nome">Pipoca</p>
+                    </button>
+                    <div class="collapse" id="cat1">
+                        <div class="card card-body">
+                            Macho. Gato adulto. Castrado. Teste negativo para FIV. Temperamento medroso, mas é muito dócil.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <button class="btn-perfil btn-primary" data-toggle="collapse" data-target="#cat2" type="button" aria-expanded="false" aria-controls="cat2">
+                        <img src="https://cdn.pixabay.com/photo/2019/02/25/17/51/kittens-4020199_960_720.jpg" class="exibicao" alt="Três gatos">
+                        <p class="nome">Paçoca, Sardinha e Mingau</p>
+                    </button>
+                    <div class="collapse" id="cat2">
+                        <div class="card card-body">
+                            Fêmeas. Gatos fihotes. Castrados. Teste negativo para FIV. As três são irmãs. São muito brincalhonas e carinhosas.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <button class="btn-perfil btn-primary" data-toggle="collapse" href="#dog3" role="button" aria-expanded="false" aria-controls="dog3">
+                        <img src="https://www.stockvault.net/data/2012/11/25/138377/preview16.jpg" class="exibicao" alt="Cachorro">
+                        <p class="nome">Biscoito</p>
+                    </button>
+                    <div class="collapse" id="dog3">
+                        <div class="card card-body">
+                            Macho. Cachorro adulto. Porte médio. Castrado. Sem Leishmaniose. Dócil, agitado e se dá bem com outros animais.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <button class="btn-perfil btn-primary" data-toggle="collapse" data-target="#dog4" type="button" aria-expanded="false" aria-controls="dog4">
+                        <img src="https://www.stockvault.net/data/2008/01/29/104298/preview16.jpg" class="exibicao" alt="Cachorro">
+                        <p class="nome">Pingo</p>
+                    </button>
+                    <div class="collapse" id="dog4">
+                        <div class="card card-body">
+                            Macho. Cachorro filhote. Porte pequeno. Castrado. Sem Leishmaniose. Temperamento tranquilo e alegre.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <button class="btn-perfil btn-primary" data-toggle="collapse" data-target="#cat3" type="button" aria-expanded="false" aria-controls="cat3">
+                        <img src="https://www.stockvault.net/data/2012/09/20/135830/preview16.jpg" class="exibicao" alt="Gato">
+                        <p class="nome">Pipoca</p>
+                    </button>
+                    <div class="collapse" id="cat3">
+                        <div class="card card-body">
+                            Macho. Gato adulto. Castrado. Teste negativo para FIV. Temperamento medroso, mas é muito dócil.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <button class="btn-perfil btn-primary" data-toggle="collapse" data-target="#cat4" type="button" aria-expanded="false" aria-controls="cat4">
+                        <img src="https://www.stockvault.net/data/2012/09/20/135820/preview16.jpg" class="exibicao" alt="Três gatos">
+                        <p class="nome">Paçoca, Sardinha e Mingau</p>
+                    </button>
+                    <div class="collapse" id="cat4">
+                        <div class="card card-body">
+                            Fêmeas. Gatos fihotes. Castrados. Teste negativo para FIV. As três são irmãs. São muito brincalhonas e carinhosas.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>
