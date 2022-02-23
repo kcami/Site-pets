@@ -3,6 +3,10 @@ body {
     text-align: center;
 }
 
+.row {
+    margin: 0;
+}
+
 .container {
     padding: 50px;
 }
@@ -21,10 +25,29 @@ body {
     background-color: transparent;
 }
 
+.titulo {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    animation: texto-descida 2s 1 ease-in-out;
+}
+
+.sub-titulo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
 /* Barra de Navegação */
 
 .navbar {
-    background-color: #444;
+    background-color: #41ab35;
 }
 
 .navbar-item {
@@ -53,25 +76,25 @@ body {
 }
 
 .titulo-home {
-    margin: 50px 100px auto auto;
+    margin: 140px 120px auto auto;
     position: relative;
     margin-bottom: 30px;
 }
 
 .titulo-home .texto1 {
     text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 8px;
+    font-size: 30px;
+    font-weight: 400;
     animation: texto-descida 2s 1 linear;
     position: relative;
 }
 
 .titulo-home .texto2 {
-    font-size: 30px;
-    letter-spacing: 4px;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: 700;
     text-transform: uppercase;
-    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     animation: texto-subida 2s 1 linear;
 } 
 
@@ -95,15 +118,6 @@ body {
     to {
         opacity: 1;
     }
-}
-
-.call-to-action::before {
-    content: "";
-    border-top: 2px solid pink;
-    width: 30%;
-    position: absolute;
-    top: 100px;
-    left: 25%;
 }
 
 .call-to-action { 
@@ -243,6 +257,115 @@ body {
 .texto-sobre {
     margin: auto 0;
 }
+
+/* Cuidados */
+
+#id-titulo {
+    height: 300px;
+    margin: 16px auto;
+}
+
+#id-titulo .titulo{
+    text-shadow: 1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white;
+}
+
+#id-geral p {
+    text-align: left;
+}
+
+#id-geral i {
+    padding-right: 20px;
+    color: #41ab35;
+    font-size: 15px;
+}
+
+#id-geral ul li {
+    list-style: none;
+    text-align: left;
+}
+
+#id-cachorro {
+    margin-top: 30px;
+}
+
+#id-cachorro .container-fluid, #id-cachorro .row{
+    height: 100%;
+}
+
+.dica {
+    padding: 120px 20px;
+}
+
+#id-cachorro .img, #id-gato .img {
+    background-size: cover;
+}
+
+#id-cachorro .img:nth-child(odd){ /* Ir para esquerda */
+    animation: texto-esquerda 2s 1 ease-in-out;
+}
+
+#id-cachorro .img:nth-child(even){/* Ir para direita */
+    animation: texto-direita 2s 1 ease-in-out;
+}
+
+#id-gato .img:nth-child(even){ /* Ir para esquerda */
+    animation: texto-direita 2s 1 ease-in-out;
+}
+
+#id-gato .img:nth-child(odd){/* Ir para direita */
+    animation: texto-esquerda 2s 1 ease-in-out;
+}
+
+@keyframes texto-direita {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes texto-esquerda {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.img-cachorro-1 {
+    background-image: url(../img/pet-cuidado-2.jpg);
+}
+
+.img-cachorro-2 {
+    background-image: url(../img/pet-cuidado-3.jpg);
+}
+
+.img-cachorro-3 {
+    background-image: url(../img/pet-cuidado-4.jpg);
+}
+
+.img-gato-1 {
+    background-image: url(../img/pet-cuidado-5.jpg);
+}
+
+.img-gato-2 {
+    background-image: url(../img/pet-cuidado-6.jpg);
+}
+
+.img-gato-3 {
+    background-image: url(../img/pet-cuidado-7.jpg);
+}
+
+.img-gato-4 {
+    background-image: url(../img/pet-cuidado-8.jpeg);
+}
+
 /* Locais */
 
 
