@@ -367,36 +367,15 @@ body {
 }
 
 /*contato*/
-#apply-area {
-    height: 500px;
-  }
-  
-  #apply-area .container-fluid,
-  #apply-area .row {
-    height: 100%;
-  }
-  
-  #apply-area .apply-box {
-    padding: 70px 50px;
-    text-align: center;
-  }
-  
-  #company-img {
-    background-image: url("../img/gatorro.jpg");
-    background-size: cover;
-    height: 100%;
-  }
-  
-  #pattern-img h4,
-  #pattern-img p {
-    color: #000;
-  }
-  
-  #pattern-img h4 {
-    margin-top: 8%;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-  }
+
+#pet-img {
+    height: 300px;
+    margin: 16px auto;
+}
+
+#id-contato-texto{
+    margin: 40px auto;
+}
   
   #pattern-img p {
     margin-bottom: 20px;
@@ -408,26 +387,42 @@ body {
     width: 180px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
     background-color: transparent;
-    border-color: #000;
+    border-color: #30d300;
     color: #000;
   }
   
   #apply-btn:hover {
     border-color: #30d300;
-    background-color: #47ba3a;
+    background-color: #30d300;
   }
-  
-  /*resgate*/
-  
-  #companyy-img {
-    background-image: url("../img/gatorro2y.jpg");
+
+.anim-btn {
+    overflow: hidden;
+    position: relative;
+}
+
+.anim-btn:hover::after {
+    content: "";
+    animation: botao 2s ease-in-out forwards;
+    background-color: grey;
     height: 100%;
-    width: auto;
-    animation: move 1s linear 1;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+  @keyframes botao {
+      from{
+        transform: translateX(0%);
+      }
+
+      to {
+        transform: translateX(101%);
+      }
   }
   
   /*locais*/
@@ -646,11 +641,11 @@ body {
     }
 
     /* apply */
-    #apply-area {
+    #id-contato {
         height: auto;
     }
 
-    #company-img {
+    #pet-img {
         display: none;
     }
 
