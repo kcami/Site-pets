@@ -375,6 +375,7 @@ body {
 /*contato*/
 
 #pet-img {
+<<<<<<< HEAD
   height: 300px;
   margin: 16px auto;
 }
@@ -479,10 +480,117 @@ body {
 .carousel-indicators .active {
   background-color: #6ecb63;
 }
+=======
+    height: 300px;
+    margin: 16px auto;
+}
+
+#id-contato-texto{
+    margin: 40px auto;
+}
+  
+  #pattern-img p {
+    margin-bottom: 20px;
+  }
+  
+  #apply-btn {
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border-color: #30d300;
+    color: #000;
+  }
+  
+  #apply-btn:hover {
+    border-color: #30d300;
+    background-color: #30d300;
+  }
+
+.anim-btn {
+    overflow: hidden;
+    position: relative;
+}
+
+.anim-btn:hover::after {
+    content: "";
+    animation: botao 2s ease-in-out forwards;
+    background-color: grey;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+  @keyframes botao {
+      from{
+        transform: translateX(0%);
+      }
+
+      to {
+        transform: translateX(101%);
+      }
+  }
+  
+  /*locais*/
+  .container-fluid {
+    padding: 0;
+  }
+  
+  #mainSlider .carousel-inner,
+  #mainSlider .carousel-item {
+    height: 90vh;
+  }
+  
+  #mainSlider .carousel-caption {
+    top: 30%;
+  }
+  
+  #mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  
+  #mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #fff;
+  }
+  
+  .main-btn {
+    background-color: #6ecb63;
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: 0.5s;
+  }
+  
+  .main-btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border-color: #6ecb63;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #6ecb63;
+  }
+>>>>>>> f5f730b4c9da06ba52d39f378bad24613c75a0ab
 
 /* Footer */
 
 #contact-area {
+<<<<<<< HEAD
   text-align: center;
 }
 
@@ -514,11 +622,45 @@ body {
 
 #msg-box p {
   font-size: 22px;
+=======
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #30d300;
+}
+
+.contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #6ecb63;
+}
+
+#msg-box p {
+    font-size: 22px;
+>>>>>>> f5f730b4c9da06ba52d39f378bad24613c75a0ab
 }
 
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form textarea {
+<<<<<<< HEAD
   margin-bottom: 15px;
   border-radius: 0;
 }
@@ -530,11 +672,25 @@ body {
 
 #contact-form .main-btn:hover {
   color: #6ecb63;
+=======
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover {
+    color: #6ecb63;
+>>>>>>> f5f730b4c9da06ba52d39f378bad24613c75a0ab
 }
 
 /* Copyright */
 
 #copy-area {
+<<<<<<< HEAD
   background-color: #f1f1f1;
 }
 
@@ -555,10 +711,33 @@ body {
 #copy-area .container a:hover {
   text-decoration: none;
   color: #3ec1d5;
+=======
+    background-color: #f1f1f1;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #444;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: #3ec1d5;
+>>>>>>> f5f730b4c9da06ba52d39f378bad24613c75a0ab
 }
 
 /* Responsivo */
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
   /* Adoção */
   .btn-perfil {
@@ -688,3 +867,133 @@ body {
     width: 50%;
   }
 }
+=======
+@media(max-width: 768px) {
+    /* Adoção */
+    .btn-perfil {
+        margin: 5px;
+    }
+    
+    .exibicao {
+        border-radius: 30px;
+        margin: 5px;
+    }
+
+    /* geral */
+    .container {
+      padding: 20px 0;
+    }
+    
+    /* slider */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+      height: auto;
+    }
+  
+    #mainSlider .carousel-caption h2 {
+      font-size: 28px;
+    }
+  
+    #mainSlider .carousel-caption p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+  
+    .carousel-caption {
+      left: 10%;
+      right: 10%;
+    }
+}  
+  
+@media(max-width: 425px) {
+
+    /* slider */
+    #mainSlider {
+      margin-top: 90px;
+    }
+  
+    #mainSlider .carousel-caption {
+      top: 5%;
+    }
+  
+    #mainSlider .carousel-caption h2 {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+  
+    #mainSlider .carousel-caption p {
+      display: none;
+    }
+  
+    .carousel-caption .main-btn {
+      
+      font-size: 14px;
+    }
+
+    /* contact */
+    .contact-box {
+        border: none;
+        margin-bottom: 0;
+    }
+
+    /* about */
+    .main-title {
+        font-size: 30px;
+    }
+
+    #about-area img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    /* data */
+    .circle-box {
+        width: 50%;
+    }
+
+    #team-area .col-md-3 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /* apply */
+    #id-contato {
+        height: auto;
+    }
+
+    #pet-img {
+        display: none;
+    }
+
+    /* filter */
+    #portfolio-area .filter-btn {
+        margin-bottom: 20px;
+    }
+
+    .project-box {
+        width: 50%;
+    }
+
+    /* news */
+    #news-area .main-title {
+        font-size: 24px;
+    }
+
+    #news-area p {
+        font-size: 16px;
+    }
+
+    #email-input {
+        width: 80%;
+    }
+
+    #call-area p, #call-area #call-btn {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+
+    #call-area p, #call-area #call-btn {
+        margin: 0;
+        width: 50%;
+    }
+}
+>>>>>>> f5f730b4c9da06ba52d39f378bad24613c75a0ab
