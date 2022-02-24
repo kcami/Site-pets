@@ -1,11 +1,9 @@
 $(document).ready(function() {
- // Parallax
+    setTimeout(function(){
 
-  // setTimeout serve para carregar primeiro as imagens
-  setTimeout(function() {
-    $('#data-area').parallax({imageSrc: 'img/cidadeparallax.png'});
-    $('#apply-area').parallax({imageSrc: 'img/pattern.png'});
-  }, 200);
-}
+        $('#id-titulo').parallax({imageSrc: 'img/pet-cuidado-1.jpg'});
+        $('#apply-area').parallax({imageSrc: 'img/gatorro.jpg'});
 
+    }, 200);
+});
 

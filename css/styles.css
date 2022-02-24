@@ -40,9 +40,6 @@
   color: #6ecb63;
 }
 
-#msg-box p {
-  font-size: 22px;
-}
 
 #contact-form input[type="text"],
 #contact-form input[type="email"],
@@ -76,9 +73,10 @@
 }
 
 #company-img {
-  background-image: url("../img/gatorro.jpg");
+  background-image: url("../img/gatorro.png");
   background-size: cover;
   height: 100%;
+  width: 100%;
 }
 
 #pattern-img h4,
@@ -111,6 +109,16 @@
 #apply-btn:hover {
   border-color: #30d300;
   background-color: #47ba3a;
+}
+
+.titulo-contato .texto1{
+
+  text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    animation: texto-descida 2s 1 linear;
+    position: relative;
+}
 }
 
 /*resgate*/
@@ -172,7 +180,7 @@
 .carousel-indicators .active {
   background-color: #6ecb63;
 }
-======= body {
+body {
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
