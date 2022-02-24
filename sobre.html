@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Descrição para quando o site for compartilhado -->
-    <meta property="og:title" content="adoCÃO"/>
+    <meta property="og:title" content="adoCÃO" />
     <meta property="og:description" content="Ajude um amiguinho peludo">
     <title>adoCÃO</title>
 
@@ -45,7 +46,6 @@
                         <li class="navbar-item"><a href="adocao.html">Adoção</a></li>
                         <li class="navbar-item"><a class="active" href="sobre.html">Sobre</a></li>
                         <li class="navbar-item"><a href="cuidado.html">Cuidados para adotar</a></li>
-                        <li class="navbar-item"><a href="resgate.html">Resgate</a></li>
                         <li class="navbar-item"><a href="sede.html">Sede</a></li>
                         <li class="navbar-item"><a href="contato.html">Contato</a></li>
 
@@ -55,36 +55,79 @@
         </div>
     </header>
 
-    <section class="container container-fluid" id="id-sobre">
-        <div class="titulo"><h1>Sobre a nossa ONG</h1></div>
-        <div class="row">
-            <div class="col-md-6 ">
-                <img src="https://www.natal.rn.gov.br/storage/app/media/noticias/35790_Original.jpeg" width="550px" alt="Voluntários">
-            </div>
-            <div class="col-md-6 texto-sobre">
-                <h2>Nossa Motivação, sua alegria! :)</h2>
-                <p>
-                    É dar a chance de um animalzinho ter uma família e a oportunidade de ser recompensado diariamente com muito amor! 
-                    Comprar animais alimenta um mercado muito nocivo à vida dos animais. Adotar é salvar vidas! Ter um animalzinho de estimação é ter uma amizade verdadeira e leal.
-                </p>
-            </div>
-        </div>         
-    </section>
+    <main class="container-fluid">
+        <div id="id-sobre">
+            <h1 class="titulo">Sobre a nossa ONG</h1>
+        </div>
 
-    
+        <div id="id-geral">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="img-sobre" src="img/sobre-cachorro.jpeg" alt="Voluntários">
+                    </div>
+                    <div class="col-md-6 texto-sobre">
+                        <h2>Nossa Motivação, sua alegria! :)</h2>
+                        <p>
+                            É dar a chance de um animalzinho ter uma família e a oportunidade de ser recompensado diariamente com muito amor!
+                            Comprar animais alimenta um mercado muito nocivo à vida dos animais. Adotar é salvar vidas! Ter um animalzinho de estimação é ter uma amizade verdadeira e leal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <footer>
-        <div class="footer">
-            <h3>ADOCÃO</h3>
-            <p>Para não se sentir sozinho, adote um amiguinho</p>
-            <ul class="socials">
-                <li><a href="https://pt-br.facebook.com
-                    " target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
-            </ul>
+        <!-- Área de contato -->
+        <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Entre em contato conosco</h3>
+                    </div>
+                    <div class="col-md-4" id="msg-box">
+                        <i class="fas fa-phone"></i>
+                        <p><span class="contact-title">Ligue para: </span>(35)4002-8922</p>
+                        <p><span class="contact-title">Horários: </span>8:00 - 19:00</p>
+                    </div>
+                    <div class="col-md-4" id="msg-box">
+                        <i class="fas fa-envelope"></i>
+                        <p><span class="contact-title">Envie um e-mail: </span>ADOTESEUAMIGAO@ong.com.br</p>
+                    </div>
+
+
+                    <div class="col-md-4" id="msg-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p><span class="contact-title">Venha conhecer nossa sede: </span>Av. B P S, 1303 - Pinheirinho, Itajubá - MG, 37500-903</p>
+                    </div>
+
+                </div>
+                <div class="col-md-12" id="contact-form">
+                    <form action="">
+                        <input type="email" class="form-control" placeholder="E-mail" name="email" required>
+                        <input type="text" class="form-control" placeholder="Assunto" name="subject" required>
+                        <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea required>
+                            <input type="submit" class="main-btn" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="footer-bottom">
-            <p>Cara que mora logo ali <br>(35 4002-8922) <br>ADOTESEUAMIGAO@ONG.COM.BR</p>
-        </div>
-    </footer>
+
+        <!-- Direitos -->
+        <div id="copy-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <p>Desenvolcido por <a href="https://github.com/kcami" target="_blank">Camila </a> e <a href="https://github.com/C4ca95" target="_blank">Caio</a> &copy; 2022</p>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+      </footer>
+
+    <!-- Scripts do projeto -->
+    <script src="js/scripts.js"></script>
 </body>
