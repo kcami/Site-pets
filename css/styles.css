@@ -125,7 +125,7 @@ body {
 .call-to-action {
   margin-top: 70px;
   margin-right: 100px;
-  animation: texto-subida 3s 1 3s paused ease-out;
+  animation: texto-subida 2s 1 linear;
 }
 
 .call-to-action p {
@@ -230,8 +230,12 @@ body {
 
 /* página de adocao */
 #perfil {
-  margin-top: 70px;
   margin-bottom: 70px;
+}
+
+#id-adocao {
+    height: 300px;
+    margin: 16px auto;
 }
 
 .btn-perfil {
@@ -258,7 +262,6 @@ body {
 
 #id-sobre {
   height: 300px;
-  /*padding-bottom: 30px;*/
   margin: 16px auto;
 }
 
@@ -560,14 +563,69 @@ body {
 /* Responsivo */
 
 @media (max-width: 768px) {
+    /*Home*/
+    .circulo {
+        display: none;
+    }
+
+    .img-titulo {
+        margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .titulo-home {
+        margin-left: 50px;
+    }
+
+    .call-to-action {
+        margin-left: 50px;
+        width: 150px;
+    }
+
+    .texto1 {
+        width: 200px;
+    }
+
   /* Adoção */
   .btn-perfil {
-    margin: 5px;
+    margin: 10px;
   }
 
-  .exibicao {
-    border-radius: 30px;
-    margin: 5px;
+   /*Cuidados*/
+   #id-cachorro .img,
+   #id-gato .img {
+       margin-top: 90px;
+       background-size: contain;
+       height: 160px;
+   }
+
+   .img-cachorro-1 {
+    background-repeat: no-repeat;
+  }
+  
+  .img-cachorro-2 {
+    background-repeat: no-repeat;
+  }
+  
+  .img-cachorro-3 {
+    background-repeat: no-repeat;
+  }
+  
+  .img-gato-1 {
+    background-repeat: no-repeat;
+  }
+  
+  .img-gato-2 {
+    background-repeat: no-repeat;
+  }
+  
+  .img-gato-3 {
+    background-repeat: no-repeat;
+  }
+  
+  .img-gato-4 {
+    background-repeat: no-repeat;
   }
 
   /* geral */
@@ -597,6 +655,66 @@ body {
 }
 
 @media (max-width: 425px) {
+    /*Home*/
+    .main {
+        height: 600px;
+    }
+
+    .circulo {
+        display: none;
+    }
+
+    .img-titulo {
+        display: none;
+    }
+
+    .titulo-home {
+        margin-left: 50px;
+        margin-bottom: 0;
+    }
+
+    .call-to-action {
+        margin-left: 100px;
+        width: 150px;
+    }
+
+    .texto1 {
+        width: 200px;
+    }
+
+    /*Cuidado*/
+    .img-cachorro-1 {
+        display: none;
+      }
+      
+      .img-cachorro-2 {
+        display: none;
+      }
+      
+      .img-cachorro-3 {
+        display: none;
+      }
+      
+      .img-gato-1 {
+        display: none;
+      }
+      
+      .img-gato-2 {
+        display: none;
+      }
+      
+      .img-gato-3 {
+        display: none;
+      }
+      
+      .img-gato-4 {
+        display: none;
+      }
+    
+      .dica {
+          padding: 20px ;
+      }
+   
   /* slider */
   #mainSlider {
     margin-top: 90px;
