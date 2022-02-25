@@ -652,6 +652,11 @@ body {
     left: 10%;
     right: 10%;
   }
+  /* Footer */
+
+  #msg-box p {
+      font-size: 15px;
+  }
 }
 
 @media (max-width: 425px) {
